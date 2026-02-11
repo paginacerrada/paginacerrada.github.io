@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <title>Página cerrada — Autor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><img src="assets/logo.png" alt="Página cerrada"></a>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="#libros">Libros</a>
+      <a href="#blog">Blog</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <h1>página cerrada</h1>
+      <p class="hero-subtitle">Filosofía y crítica</p>
+    </section>
+
+    <section id="libros" class="section section-libros">
+      <h2 class="section-title">Libros</h2>
+      <div class="libros-grid">
+        <article class="card card-libro">
+          <a href="https://drive.google.com/file/d/1KCywjosrB2gdC4hLPUbsG0T2zqVeFhFU/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-libro-cover">
+            <img src="https://drive.google.com/thumbnail?id=1KCywjosrB2gdC4hLPUbsG0T2zqVeFhFU&sz=w400" alt="Portada — Realismo Ponderativo" onerror="this.src='https://placehold.co/300x450/2a2a2a/888?text=Realismo+Ponderativo'">
+          </a>
+          <div class="card-body">
+            <h3>Realismo Ponderativo</h3>
+            <p>Mi intento de sistematización filosófica respecto del problema de lo real y lo aparente</p>
+            <a href="https://drive.google.com/file/d/1KCywjosrB2gdC4hLPUbsG0T2zqVeFhFU/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-link">Abrir PDF</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="blog" class="section section-blog">
+      <h2 class="section-title">Blog</h2>
+      <div class="blog-list">
+        <article class="card card-blog">
+          <a href="blog/hacia-el-realismo-ponderativo.html" class="card-body card-blog-link">
+            <time datetime="2026-02-11">11 de febrero de 2026</time>
+            <h3>Hacia el realismo ponderativo</h3>
+            <p>Marco ontológico pluralista que reemplaza la pregunta «¿es real o aparente?» por «¿en qué registros está inscrito, con qué peso, con qué convergencia?». Inscripción, registros, peso y convergencia; cartografía filosófica y fragilidad institucional.</p>
+            <span class="card-link">Leer más</span>
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 página cerrada.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

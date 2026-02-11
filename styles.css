@@ -378,6 +378,7 @@ a:hover {
 
 .post-body p {
   margin-bottom: 1rem;
+  text-align: justify;
 }
 
 .post-body code {
